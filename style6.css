@@ -7,14 +7,21 @@
     color: brown;
     text-transform: capitalize;
     list-style: none;
-    width: 1361px;
+    width: 1345px;
     height: 123px;
     text-align: center;
     padding-top:4vh ;
     /* position:fixed;  */
-    flex-wrap: wrap;
 
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+
   
 li a{
   text-decoration: none;
@@ -30,17 +37,21 @@ header nav{
     height: 5vh;
     
 } */
-.container{
- background-image: url(htma\ bg.jpg);
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+#container{
+ background-image: url(images/htma\ bg.jpg);
     height: 1021px;
-    width: 1366px;
+    width: 1345px;
     background-repeat: no-repeat;
     color: aliceblue;
     text-transform: capitalize;
-    
-    
 }
-.container h1{
+#container h1{
     text-align: center;
 
     justify-content: center; 
@@ -54,6 +65,12 @@ header nav{
     padding-top: 19vh;
     text-transform: uppercase;
     padding-left: 29vw;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
 }
 body p{
     
@@ -83,7 +100,7 @@ body p{
     justify-content: center;
 
 }
-.container .form form{
+#container .form form{
     margin: 19vh;
      border: 2px solid brown;
      height: 420px;
@@ -132,7 +149,7 @@ input{
     font-size: 3vh;
     color: #58311b;
 }
- .youtube{
+#youtube{
     /* border: 2px solid brown; */ 
     display: inline-flex;
     /* background-color: #8d5f44; */
@@ -142,7 +159,7 @@ input{
     padding-left: 14vh;
     flex-wrap: wrap;
 }
-.youtube iframe{
+#youtube iframe{
     margin: 5vh;
     padding: 8vh;
     margin-right:3vh ;
@@ -176,35 +193,7 @@ input{
     font-style:inherit;
     padding-bottom: 6vh;
 }
-/* .guitarstore{
-    /* font-size: 6vh; */ 
-     /* font-style: inherit;
-    text-transform: uppercase; */
-      /* padding-left: 4vh; 
-    border: 2px solid rgb(255, 255, 255);
-    background-color: #f2f2f2;
-    width: 1347px;
-    height: 11vh;
-} */
-/* .guitarstore1{
-font-size: 5vh;
-padding: 3vh;
-font-family: Roboto,Arial,sans-serif;
-}
-.all{
-    display: flex;
-}
-.all .photo img {
-    width: 245px;
-    height: 246px;
-    margin: 3vh;
-}
-.all .content{
-  font-size: 3vh;
-  padding-left: 6vh;
-}
-.photo2{
-}  */
+
 .cart{
 max-width: 92vw;
 margin: auto;
@@ -244,8 +233,6 @@ display: wrap;
 footer{
     background-color:#876540;
     color: white;
-}
-*{
 }
 .last{
     font-size: 4vh;
